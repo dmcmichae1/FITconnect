@@ -2,7 +2,7 @@ import axios from 'axios';
 import React from 'react';
 import { useState } from 'react';
 import { withRouter } from 'react-router';
-import './login.css'
+import './Signup.css'
 
 const SignUp = ({ history }) => {
   const [username, setusername] = useState('');
@@ -32,10 +32,8 @@ const SignUp = ({ history }) => {
 
 
 
-  return (<div className="SignUp">
+  return (<div className="css">
 
-
-    <h2>Signup bro!</h2>
     <form onSubmit={SignUp} action="/action_page.php">
       <div className="form-group">
         <label for="firstName">First Name:</label>
